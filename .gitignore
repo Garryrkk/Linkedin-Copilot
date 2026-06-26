@@ -1,0 +1,12 @@
+# Claude Code session state — never share/commit
+.claude/
+
+# Model binaries — these are multi-GB and must never be committed.
+# Partner needs to either drop their own files here (see README) or use
+# OpenAI instead of a local model.
+/models/*
+!/models/.gitkeep
+
+# OS noise
+.DS_Store
+Thumbs.db
